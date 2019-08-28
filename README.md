@@ -1,4 +1,4 @@
-# ProductCatalogService
+# product-catalog-services
 
 # API end points -
 ## POST - localhost:8080/productCatalog/createProduct
@@ -146,7 +146,7 @@ a) mvn package OR mvn clean install. It will create ProductCatalogServices.jar i
 
 b) java -jar ProductCatalogServices.jar Execute it using command prompt. OR a)It is a SpringBoot project and can be simply executed as a java project from ProductCatalogServiceStarter.java class.
 
-#Docker
+# Docker
 a) Create a Dockerfile
 b) Build an image using command ==> docker build -t product-catalog-services .
 c) Run docker container ==> docker run -d -p 8080:8080 product-catalog-services
